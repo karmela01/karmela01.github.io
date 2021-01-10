@@ -11,32 +11,49 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- <script src="query2.js"></script>  -->
+  <script src="query2.js"></script>
   <title>María del Carmen Castro Gutiérrez</title>
 </head>
 
 <body>
 
-  <!-- barra de navegación -->
-  
-  <div class="container">
-    <ul class="nav  nav-right">
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link  text-light" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link  text-light" href="#contact">Contact</a>
-      </li>
-    </ul>
+  <!-- barra de navegación  -->
+  <div class="container fixed-top">
+    <div class="row mt-5">
+      <div class="col-1">
+        <nav class="navbar navbar-light">
+          <span class="navbar-brand mb-0 h1 text-light">Carmen Castro</span>
+        </nav>
+      </div>
+      <div class="col-2 offset-md-9 justify-content-end">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#about">About<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+
+    </div>
   </div>
+
 
   <!-- resto de contenido -->
   <div class="container-fluid">
-   
-    <div id="title" class="cover top">  <!-- primera parte (info) -->
+
+    <div id="title" class="cover top">
+      <!-- primera parte (info) -->
       <div class="row row-cols-1">
         <div class="col-xs-12 headline">
           <h1 class="text-center">Hola, soy Carmen</h1>
@@ -49,8 +66,9 @@
         </div>
       </div>
     </div>
-    
-    <div id="about" class="row cover">  <!-- segunda parte (about) -->
+
+    <div id="about" class="row cover med">
+      <!-- segunda parte (about) -->
       <div class="col-md-6 offset-md-3">
         <h2 class="text-center">Sobre mí</h2>
       </div>
@@ -96,23 +114,29 @@
               src="images/arrow-down-circle de bootstrap.svg" alt=""></a></p>
       </div>
     </div>
-    
-    <div id="portfolio" class="row cover"> <!-- tercera parte (portfolio) -->
-      
-      <div class="col-md-6 offset-md-3"> <!-- titulo portfolio --> 
+
+    <div id="portfolio" class="row cover med">
+      <!-- tercera parte (portfolio) -->
+
+      <div class="col-md-6 offset-md-3">
+        <!-- titulo portfolio -->
         <h2 class="text-center">Portfolio</h2>
       </div>
-      
-      <div class="container"><!-- contenedor de proyectos -->
-        
-        <div class="row portfolio-projects"> <!-- primera fila de proyectos, dos proyectos por fila -->
-          <div class="col-lg-6"> <!-- primer proyecto -->
-            <div class="row"> 
+
+      <div class="container">
+        <!-- contenedor de proyectos -->
+
+        <div class="row portfolio-projects">
+          <!-- primera fila de proyectos, dos proyectos por fila -->
+          <div class="col-lg-6">
+            <!-- primer proyecto -->
+            <div class="row">
               <div class="col-sm-5 text-center">
                 <h4 class="portfolio-projects--title">Celiamaps</h4>
                 <p class="portfolio-projects--desc">Proyecto de fin de ciclo</p>
                 <p class="portfolio-projects--desc">Laravel, leaflet, jquery...</p>
-                <a class="btn btn-rounded portfolio-projects--btn" href="https://github.com/SergioMorenoAntequera/CeliaMaps" role="button">Ver proyecto</a>
+                <a class="btn btn-rounded portfolio-projects--btn"
+                  href="https://github.com/SergioMorenoAntequera/CeliaMaps" role="button">Ver proyecto</a>
               </div>
               <div class="col-sm-7 text-center">
                 <img class="portfolio-projects--image" src="images/celiamaps.png">
@@ -120,21 +144,22 @@
             </div>
           </div>
 
-          <div class="col-lg-6"> <!-- segundo proyecto -->
-            
+          <div class="col-lg-6">
+            <!-- segundo proyecto -->
+
           </div>
         </div><!-- fin de primera fila de proyectos-->
       </div> <!-- fin de contenedor de proyectos-->
-      </div><!-- final de portfolio -->
+    </div><!-- final de portfolio -->
 
-      <!--
+    <!--
        <div id="contact" class="row cover bottom">
         <h2 class="text-center contact-header">Contacto</h2>
         <p class="text-center contact-email">Puedes contactar conmigo en <span class="glyphicon glyphicon-arrow-right"></span> carmendaw@gmail.com</p>
         <div class="text-center contact-social-icons">
           <p>También puedes encontrarme en:</p>
           <ul class="centered"> -->
-            <!--<a href="https://codepen.io/sonorangirl/"><li><i class="fa fa-codepen"></i> CodePen</li></a> 
+    <!--<a href="https://codepen.io/sonorangirl/"><li><i class="fa fa-codepen"></i> CodePen</li></a> 
             <a href="https://linkedin.com/in/carmencastrogutierrez"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
             <a href="https://github.com/karmela01"><li><i class="fa fa-github"></i> Github</li></a>
             <a href="https://twitter.com/carmela_01"><li><i class="fa fa-twitter"></i> Twitter</li></a>
@@ -145,10 +170,10 @@
         </p>
         
       </div> End #Contact -->
-    
-    </div>
 
-  
+  </div>
+
+
 
 </body>
 
