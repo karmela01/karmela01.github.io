@@ -50,19 +50,19 @@ body {
         }
           .cover.top {
             padding: 15% 0 10% 0;
-            height: 100vh;
+            min-height: 100vh;
             /*display: flex;*/
             background-color: #25b79f;
            }
 
            .row.cover.med {
             padding: 10% 0 10% 0;
-            height: 100vh;           
+            min-height: 100vh;           
            }
 
           .cover.bottom {
             padding: 10% 0 10% 0;
-            height: 100vh;
+            min-height: 100vh;
            }
        
         #about {
