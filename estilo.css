@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
 body {
-    height: 100%;
+    height: 100%;    
     font-family: "Comfortaa", Helvetica, Arial, sans-serif;
     background-color: #25b79f !important;
     /* Margin bottom by footer height */
@@ -15,7 +15,8 @@ body {
         display: none;
       }
 
-     
+      
+      
       
       h1,
       h2,
@@ -25,18 +26,32 @@ body {
         font-family: "Comfortaa", Helvetica, Arial, sans-serif;
         color: #07374a;
       }
+      .hello{
+        font-family: "Comfortaa", Helvetica, Arial, sans-serif !important;
+        color: #07374a !important;
+      }
 
-      
+     .navbar-brand, .lead, .pName, .pInfo, .pTools{
+      font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+     }
+
       p {
-        font-family: "Quattrocento", sans-serif;
+        /*font-family: "Quattrocento", sans-serif;*/
         color: #f0f0e6; }
+
         .pInfo{
-          padding-left: 20%;
-          padding-right: 20%;
+          padding-left: 15%;
+          padding-right: 15%;
         }
         .pTools{
           padding-left: 20%;    
         }
+        
+        .pName{
+          font-weight: 600;
+          color: #25b79f;
+        }
+        
         #link{
           color: #25b79f;
          }
@@ -44,12 +59,13 @@ body {
     img {
         width: 50%;
         border-radius: 50%; 
-      }  
-      
+      }     
+
+
       .bi-arrow-down-circle{
         font-size: 1.5em;
         color: #25b79f;
-      }
+      }     
         .cover {
           padding: 10% 0 10% 0;          
         }
@@ -111,6 +127,7 @@ body {
    }
   
   .toolList{
+    font-family: "Comfortaa", Helvetica, Arial, sans-serif;
     padding-left: 20%;    
   }
  
@@ -168,6 +185,7 @@ body {
                 list-style: none; 
                 padding: 2%; }
 
+                /*
                 @media screen and (min-width: 980px) {
                   .row {
                     display: flex;
@@ -178,4 +196,4 @@ body {
                     flex: 1;
                   }            
                 }
-          
+          */
